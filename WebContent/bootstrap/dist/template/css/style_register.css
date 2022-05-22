@@ -1,0 +1,380 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;     color: #007fbd;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	background: url(../images/baner.jpg) 0px 0px no-repeat;
+	
+	background-size:cover;
+	font-family: 'Montserrat', sans-serif;
+	min-height:100vh;
+}
+
+.w3_frm {
+    justify-content: center;
+    align-items: center;
+    max-width:700px;
+    margin: 0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	background-color: rgba(34, 31, 32, 0.87);
+	padding:2em;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 35px 0 35px 0;
+    padding: 0;
+    color: #f5f0f0;
+}
+.w3l_nm {
+    display: flex;
+}
+.agile_fx {
+    flex-basis: 40%;
+}
+
+select.dropdown, input#datepicker, input#datepicker1, input#datepicker2 {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    outline: none;
+    border: none;
+    color: #000;
+    background-color: transparent;
+	border:1px solid #000;
+}
+.wthree_fl {
+    flex-basis: 60%;
+}
+.wthree_loc {
+    display: flex;
+}
+.w3ls_ad {
+    flex-basis: 40%;
+}
+
+.w3ls-name1 {
+    display: flex;
+}
+.w3_sd3 {
+    flex-basis: 47%;
+    margin-right: 20px;
+}
+.w3_sd4 {
+    flex-basis: 47%;
+   }
+.w3_sd4 select{
+	font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    box-sizing: border-box;
+}
+option {
+    background-color: #fff;
+}
+input#timepicker {
+    color: #000;
+}
+
+h3 {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding:0 0 30px ;
+	text-align:center;
+}
+label.w3ls-opt {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 0;
+	color: #fff;
+	
+}
+textarea#message {
+    height: 150px;
+    padding: 7px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    width: 96%;
+	resize:none;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:capitalize;
+	font-weight: 500;
+	letter-spacing:1px;
+	border:1px solid #000;
+}
+.copy-wthree {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+	letter-spacing:2px;
+	line-height:1.8em;
+	
+}
+.copy-wthree a {
+	color:#ff4f81;
+}
+.copy-wthree p {
+	font-size:15px;
+}
+span.w3ls-star {
+    font-size: 28px;
+    vertical-align: -5px;
+    color: #E91E63;
+}
+label.w3ls-opt1 {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #fff;	
+	
+}
+input[type="text"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    box-sizing: border-box;
+}
+
+input[type="email"] {
+    font-size: 15px;
+    font-weight: 500;
+	letter-spacing: 1px;
+    width: 100%;
+    padding: 10px;
+	margin: 10px 0;
+    outline: none;
+	border: 1px solid #000;
+	color: #000;
+    box-sizing: border-box;
+	
+}
+input#datepicker2 {
+	background: url(../images/date-icon.png) no-repeat 95.5% 45% #fff;
+	cursor: pointer;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+
+input[type="submit"] {
+	font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	display: block;
+    padding: 10px;
+	width: 30%;
+    margin: 10px auto 20px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	outline:none;
+	background: #ff4f81;
+    color: #fff;
+	cursor: pointer;
+	
+}
+input[type="reset"] {
+	font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	display: block;
+    padding: 10px;
+	width: 30%;
+    margin: 10px auto 20px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	outline:none;
+	background: #ff4f81;
+    color: #fff;
+	cursor: pointer;
+	
+}
+span.w3ls-text.w3ls-name select {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    
+}
+span.w3ls-text.w3ls-name select option {
+    color: #000;
+}
+.input {
+    margin: 20px 0;
+}
+
+/** Responsive **/
+@media screen and (max-width: 991px){
+h1 {
+    font-size: 45px;
+	letter-spacing:2px;
+
+}
+h3 {
+    font-size: 45px;
+}	
+}
+@media screen and (max-width: 800px){
+h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 40px;
+}
+.w3_frm {
+    margin: 0px 3vw;
+}	
+}
+@media screen and (max-width: 768px){
+	h1 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 35px;
+}
+}
+@media screen and (max-width: 768px){
+.w3_frm {
+    margin: 0px 3vw;
+}
+	h1 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 568px){
+.agile_fx {
+    flex-basis: 50%;
+}
+.w3ls_ad {
+    flex-basis: 50%;
+}
+	h1 {
+	margin: 20px 0 20px 0;
+}	
+}
+@media screen and (max-width: 480px){
+.w3l_nm {
+    display: flex;
+    flex-direction: column;
+}
+.wthree_loc {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    letter-spacing: 0px;
+}	
+}  
+@media screen and (max-width: 414px){
+
+h3 {
+    font-size: 25px;
+}
+.copy-wthree p {
+    font-size: 14px;
+}	
+}
+@media screen and (max-width: 320px){
+input[type="submit"] {
+    width: 50%;
+}
+h1 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+	letter-spacing:1px;
+}	
+}  
+/** /Responsive**/
